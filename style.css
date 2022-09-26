@@ -149,28 +149,35 @@ h2 {
   display: none;
 }
 
-@media (max-width: 414px) {
-  main {
-    height: 100vh;
+@media (max-width: 375px) {
+  main,
+  section {
+    max-width: 100vh;
+  }
+  .star-icon {
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: #262e38;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    border-radius: 50%;
   }
 
-  .component-box {
+  .component-box,
+  .component-box-feedback {
     background-image: radial-gradient(#232a34, #181e27);
     height: auto;
-    width: 20rem;
-    border-radius: 2rem;
-    padding: 2rem;
+    width: 20.438rem;
+    border-radius: 1rem;
+    padding: 1.5rem;
     display: flex;
     flex-direction: column;
     row-gap: 2rem;
   }
 
   h1 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
 
   p {
@@ -186,7 +193,8 @@ h2 {
     width: 2.5rem;
   }
 
-  .submit {
-    font-size: 00.875rem;
+  #submit {
+    font-size: 0.875rem;
+    width: 17.438rem;
   }
 }
