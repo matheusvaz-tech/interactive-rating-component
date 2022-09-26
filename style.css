@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #131518;
+  font-family: "Overpass";
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main,
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.component-box {
+  background-image: radial-gradient(#232a34, #181e27);
+  height: auto;
+  width: 25.75rem;
+  border-radius: 2rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.star-icon {
+  height: 3rem;
+  width: 3rem;
+  background-color: #262e38;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.component-box .title-and-paragraph {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+p {
+  color: #969fad;
+  font-weight: 300;
+  line-height: 1.5rem;
+  font-size: 1rem;
+}
+
+.feedbacks {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+}
+
+.feedbacks button {
+  font-size: 1rem;
+  height: 3.5rem;
+  width: 3.5rem;
+  background: #262e38;
+  padding: auto;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: #7c8798;
+  transition: 0.4s;
+}
+
+.feedbacks button:hover {
+  background-color: #7c8798;
+  color: white;
+  cursor: pointer;
+}
+
+.feedbacks button:focus {
+  background-color: #fc7614;
+  color: white;
+}
+
+#submit {
+  height: 3rem;
+  background: #fc7614;
+  color: white;
+  border-radius: 1.25rem;
+  border: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+
+#submit:hover {
+  background: #dd6109;
+  cursor: pointer;
+}
+
+#submit:disabled {
+  background-color: #595f69;
+  cursor: default;
+}
+
+.component-box-feedback {
+  background-image: radial-gradient(#232a34, #181e27);
+  height: auto;
+  width: 25.75rem;
+  border-radius: 2rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2rem;
+}
+
+.card-choice-rating > p {
+  background: #262e38;
+  border-radius: 1.25rem;
+  color: #fc7614;
+  padding: 0.25rem 1.25rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+.feedback-title-and-paragraph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1rem;
+}
+
+.feedback-title-and-paragraph > p {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 414px) {
+  main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .component-box {
+    background-image: radial-gradient(#232a34, #181e27);
+    height: auto;
+    width: 20rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  p {
+    color: #969fad;
+    font-weight: 300;
+    line-height: 1.2rem;
+    font-size: 0.875rem;
+  }
+
+  .feedbacks button {
+    font-size: 1rem;
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+
+  .submit {
+    font-size: 00.875rem;
+  }
+}
