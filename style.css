@@ -80,13 +80,13 @@ p {
 }
 
 .feedbacks button:hover {
-  background-color: #7c8798;
+  background-color: #fc7614;
   color: white;
   cursor: pointer;
 }
 
 .feedbacks button:focus {
-  background-color: #fc7614;
+  background-color: #7c8798;
   color: white;
 }
 
@@ -102,7 +102,8 @@ p {
 }
 
 #submit:hover {
-  background: #dd6109;
+  background: white;
+  color: #fc7614;
   cursor: pointer;
 }
 
