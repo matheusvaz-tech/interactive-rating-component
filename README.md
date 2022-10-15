@@ -12,6 +12,10 @@
 - CSS;
 - Javascript.
 
+## 📙 Learnings and Difficulties
+
+In this challenge, I exercised a little more about DOM manipulation and had some difficulty understanding the subject.
+
 ## 📧 Contact
 
 matheusvaz.ux@gmail.com
